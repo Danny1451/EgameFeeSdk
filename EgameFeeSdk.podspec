@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Danny1451"
 
   # s.platform     = :ios
-  # s.platform     = :ios, "6.0"
+  s.platform     = :ios, "6.0"
 
   #  When using multiple pltforms
   # s.ios.deployment_target = "5.0"
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
    s.frameworks = "CoreTelephony","SystemConfiguration","CFNetwork","AdSupport"
 
-   s.vendored_library  = "EgameFeeSdk/libEgameFeeSdk.a","EgameFeeSdk/extralibs/*.a","EgameFeeSdk/alipay/*.a"
+   s.vendored_libraries  = "EgameFeeSdk/alipay/AlipayRsaLib.a","EgameFeeSdk/alipay/AlixPaylib_arc.a","EgameFeeSdk/extralibs/libcrypto.a","EgameFeeSdk/libEgameFeeSdk.a","EgameFeeSdk/extralibs/libssl.a"
   # s.libraries = "iconv", "xml2"
 
 
