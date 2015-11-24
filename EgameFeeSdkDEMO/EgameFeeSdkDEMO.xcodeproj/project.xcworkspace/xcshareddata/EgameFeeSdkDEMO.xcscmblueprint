@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A14BAE37AF00896A4348E6D46F81AF3E7520792",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A14BAE37AF00896A4348E6D46F81AF3E7520792" : 0,
+    "6E84240FA9C405C613E4376270626C872725D390" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "631D6728-96E3-4E56-99CB-86CBEDFAA985",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A14BAE37AF00896A4348E6D46F81AF3E7520792" : "EgameFeeSdk\/",
+    "6E84240FA9C405C613E4376270626C872725D390" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EgameFeeSdkDEMO",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EgameFeeSdkDEMO\/EgameFeeSdkDEMO.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danny1451\/EgameFeeSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A14BAE37AF00896A4348E6D46F81AF3E7520792"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danny1451\/LDAsynImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E84240FA9C405C613E4376270626C872725D390"
+    }
+  ]
+}

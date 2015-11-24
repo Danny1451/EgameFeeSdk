@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1091D201BE1F7360086228E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091D1F1BE1F7360086228E /* main.m */; };
+		C1091D231BE1F7360086228E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091D221BE1F7360086228E /* AppDelegate.m */; };
+		C1091D261BE1F7360086228E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091D251BE1F7360086228E /* ViewController.m */; };
+		C1091D291BE1F7360086228E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1091D271BE1F7360086228E /* Main.storyboard */; };
+		C1091D2B1BE1F7360086228E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1091D2A1BE1F7360086228E /* Assets.xcassets */; };
+		C1091D2E1BE1F7360086228E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1091D2C1BE1F7360086228E /* LaunchScreen.storyboard */; };
+		C1091D391BE1F7360086228E /* EgameFeeSdkDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091D381BE1F7360086228E /* EgameFeeSdkDEMOTests.m */; };
+		C1091D441BE1F7360086228E /* EgameFeeSdkDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091D431BE1F7360086228E /* EgameFeeSdkDEMOUITests.m */; };
+		C1D270CC1BEC8CFB00BF13D2 /* AlipayRsaLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D270AC1BEC8CFB00BF13D2 /* AlipayRsaLib.a */; };
+		C1D270CD1BEC8CFB00BF13D2 /* Alixpay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1D270AE1BEC8CFB00BF13D2 /* Alixpay.bundle */; };
+		C1D270CE1BEC8CFB00BF13D2 /* AlixPaylib_arc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D270AF1BEC8CFB00BF13D2 /* AlixPaylib_arc.a */; };
+		C1D270CF1BEC8CFB00BF13D2 /* AlixPayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270B11BEC8CFB00BF13D2 /* AlixPayOrder.m */; };
+		C1D270D01BEC8CFB00BF13D2 /* AlixPayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270B31BEC8CFB00BF13D2 /* AlixPayResult.m */; };
+		C1D270D11BEC8CFB00BF13D2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270B71BEC8CFB00BF13D2 /* NSObject+SBJSON.m */; };
+		C1D270D21BEC8CFB00BF13D2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270B91BEC8CFB00BF13D2 /* NSString+SBJSON.m */; };
+		C1D270D31BEC8CFB00BF13D2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270BB1BEC8CFB00BF13D2 /* SBJSON.m */; };
+		C1D270D41BEC8CFB00BF13D2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270BD1BEC8CFB00BF13D2 /* SBJsonBase.m */; };
+		C1D270D51BEC8CFB00BF13D2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270BF1BEC8CFB00BF13D2 /* SBJsonParser.m */; };
+		C1D270D61BEC8CFB00BF13D2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D270C11BEC8CFB00BF13D2 /* SBJsonWriter.m */; };
+		C1D270D71BEC8CFB00BF13D2 /* EgameBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1D270C51BEC8CFB00BF13D2 /* EgameBundle.bundle */; };
+		C1D270D81BEC8CFB00BF13D2 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D270C91BEC8CFB00BF13D2 /* libcrypto.a */; };
+		C1D270D91BEC8CFB00BF13D2 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D270CA1BEC8CFB00BF13D2 /* libssl.a */; };
+		C1D270DA1BEC8CFB00BF13D2 /* libEgamePaySdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D270CB1BEC8CFB00BF13D2 /* libEgamePaySdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1091D351BE1F7360086228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1091D131BE1F7360086228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1091D1A1BE1F7360086228E;
+			remoteInfo = EgameFeeSdkDEMO;
+		};
+		C1091D401BE1F7360086228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1091D131BE1F7360086228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1091D1A1BE1F7360086228E;
+			remoteInfo = EgameFeeSdkDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1091D1B1BE1F7360086228E /* EgameFeeSdkDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgameFeeSdkDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091D1F1BE1F7360086228E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1091D211BE1F7360086228E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1091D221BE1F7360086228E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1091D241BE1F7360086228E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1091D251BE1F7360086228E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1091D281BE1F7360086228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1091D2A1BE1F7360086228E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1091D2D1BE1F7360086228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1091D2F1BE1F7360086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1091D341BE1F7360086228E /* EgameFeeSdkDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgameFeeSdkDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091D381BE1F7360086228E /* EgameFeeSdkDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgameFeeSdkDEMOTests.m; sourceTree = "<group>"; };
+		C1091D3A1BE1F7360086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1091D3F1BE1F7360086228E /* EgameFeeSdkDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgameFeeSdkDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091D431BE1F7360086228E /* EgameFeeSdkDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgameFeeSdkDEMOUITests.m; sourceTree = "<group>"; };
+		C1091D451BE1F7360086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D270AC1BEC8CFB00BF13D2 /* AlipayRsaLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AlipayRsaLib.a; sourceTree = "<group>"; };
+		C1D270AD1BEC8CFB00BF13D2 /* AlixLibService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixLibService.h; sourceTree = "<group>"; };
+		C1D270AE1BEC8CFB00BF13D2 /* Alixpay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Alixpay.bundle; sourceTree = "<group>"; };
+		C1D270AF1BEC8CFB00BF13D2 /* AlixPaylib_arc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AlixPaylib_arc.a; sourceTree = "<group>"; };
+		C1D270B01BEC8CFB00BF13D2 /* AlixPayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayOrder.h; sourceTree = "<group>"; };
+		C1D270B11BEC8CFB00BF13D2 /* AlixPayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayOrder.m; sourceTree = "<group>"; };
+		C1D270B21BEC8CFB00BF13D2 /* AlixPayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayResult.h; sourceTree = "<group>"; };
+		C1D270B31BEC8CFB00BF13D2 /* AlixPayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayResult.m; sourceTree = "<group>"; };
+		C1D270B51BEC8CFB00BF13D2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C1D270B61BEC8CFB00BF13D2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C1D270B71BEC8CFB00BF13D2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C1D270B81BEC8CFB00BF13D2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C1D270B91BEC8CFB00BF13D2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C1D270BA1BEC8CFB00BF13D2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C1D270BB1BEC8CFB00BF13D2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C1D270BC1BEC8CFB00BF13D2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C1D270BD1BEC8CFB00BF13D2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C1D270BE1BEC8CFB00BF13D2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C1D270BF1BEC8CFB00BF13D2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C1D270C01BEC8CFB00BF13D2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C1D270C11BEC8CFB00BF13D2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C1D270C31BEC8CFB00BF13D2 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
+		C1D270C41BEC8CFB00BF13D2 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
+		C1D270C51BEC8CFB00BF13D2 /* EgameBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EgameBundle.bundle; sourceTree = "<group>"; };
+		C1D270C61BEC8CFB00BF13D2 /* EgameConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgameConstant.h; sourceTree = "<group>"; };
+		C1D270C71BEC8CFB00BF13D2 /* EgamePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgamePay.h; sourceTree = "<group>"; };
+		C1D270C91BEC8CFB00BF13D2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		C1D270CA1BEC8CFB00BF13D2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		C1D270CB1BEC8CFB00BF13D2 /* libEgamePaySdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEgamePaySdk.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1091D181BE1F7360086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D270D91BEC8CFB00BF13D2 /* libssl.a in Frameworks */,
+				C1D270CC1BEC8CFB00BF13D2 /* AlipayRsaLib.a in Frameworks */,
+				C1D270CE1BEC8CFB00BF13D2 /* AlixPaylib_arc.a in Frameworks */,
+				C1D270D81BEC8CFB00BF13D2 /* libcrypto.a in Frameworks */,
+				C1D270DA1BEC8CFB00BF13D2 /* libEgamePaySdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D311BE1F7360086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D3C1BE1F7360086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1091D121BE1F7360086228E = {
+			isa = PBXGroup;
+			children = (
+				C1091D1D1BE1F7360086228E /* EgameFeeSdkDEMO */,
+				C1091D371BE1F7360086228E /* EgameFeeSdkDEMOTests */,
+				C1091D421BE1F7360086228E /* EgameFeeSdkDEMOUITests */,
+				C1091D1C1BE1F7360086228E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1091D1C1BE1F7360086228E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1091D1B1BE1F7360086228E /* EgameFeeSdkDEMO.app */,
+				C1091D341BE1F7360086228E /* EgameFeeSdkDEMOTests.xctest */,
+				C1091D3F1BE1F7360086228E /* EgameFeeSdkDEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1091D1D1BE1F7360086228E /* EgameFeeSdkDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270AA1BEC8CFB00BF13D2 /* EgameFeeSdk */,
+				C1091D211BE1F7360086228E /* AppDelegate.h */,
+				C1091D221BE1F7360086228E /* AppDelegate.m */,
+				C1091D241BE1F7360086228E /* ViewController.h */,
+				C1091D251BE1F7360086228E /* ViewController.m */,
+				C1091D271BE1F7360086228E /* Main.storyboard */,
+				C1091D2A1BE1F7360086228E /* Assets.xcassets */,
+				C1091D2C1BE1F7360086228E /* LaunchScreen.storyboard */,
+				C1091D2F1BE1F7360086228E /* Info.plist */,
+				C1091D1E1BE1F7360086228E /* Supporting Files */,
+			);
+			path = EgameFeeSdkDEMO;
+			sourceTree = "<group>";
+		};
+		C1091D1E1BE1F7360086228E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1091D1F1BE1F7360086228E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1091D371BE1F7360086228E /* EgameFeeSdkDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1091D381BE1F7360086228E /* EgameFeeSdkDEMOTests.m */,
+				C1091D3A1BE1F7360086228E /* Info.plist */,
+			);
+			path = EgameFeeSdkDEMOTests;
+			sourceTree = "<group>";
+		};
+		C1091D421BE1F7360086228E /* EgameFeeSdkDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1091D431BE1F7360086228E /* EgameFeeSdkDEMOUITests.m */,
+				C1091D451BE1F7360086228E /* Info.plist */,
+			);
+			path = EgameFeeSdkDEMOUITests;
+			sourceTree = "<group>";
+		};
+		C1D270AA1BEC8CFB00BF13D2 /* EgameFeeSdk */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270AB1BEC8CFB00BF13D2 /* alipay */,
+				C1D270C51BEC8CFB00BF13D2 /* EgameBundle.bundle */,
+				C1D270C61BEC8CFB00BF13D2 /* EgameConstant.h */,
+				C1D270C71BEC8CFB00BF13D2 /* EgamePay.h */,
+				C1D270C81BEC8CFB00BF13D2 /* extralibs */,
+				C1D270CB1BEC8CFB00BF13D2 /* libEgamePaySdk.a */,
+			);
+			path = EgameFeeSdk;
+			sourceTree = "<group>";
+		};
+		C1D270AB1BEC8CFB00BF13D2 /* alipay */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270AC1BEC8CFB00BF13D2 /* AlipayRsaLib.a */,
+				C1D270AD1BEC8CFB00BF13D2 /* AlixLibService.h */,
+				C1D270AE1BEC8CFB00BF13D2 /* Alixpay.bundle */,
+				C1D270AF1BEC8CFB00BF13D2 /* AlixPaylib_arc.a */,
+				C1D270B01BEC8CFB00BF13D2 /* AlixPayOrder.h */,
+				C1D270B11BEC8CFB00BF13D2 /* AlixPayOrder.m */,
+				C1D270B21BEC8CFB00BF13D2 /* AlixPayResult.h */,
+				C1D270B31BEC8CFB00BF13D2 /* AlixPayResult.m */,
+				C1D270B41BEC8CFB00BF13D2 /* json */,
+				C1D270C21BEC8CFB00BF13D2 /* RSA */,
+			);
+			path = alipay;
+			sourceTree = "<group>";
+		};
+		C1D270B41BEC8CFB00BF13D2 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270B51BEC8CFB00BF13D2 /* JSON.h */,
+				C1D270B61BEC8CFB00BF13D2 /* NSObject+SBJSON.h */,
+				C1D270B71BEC8CFB00BF13D2 /* NSObject+SBJSON.m */,
+				C1D270B81BEC8CFB00BF13D2 /* NSString+SBJSON.h */,
+				C1D270B91BEC8CFB00BF13D2 /* NSString+SBJSON.m */,
+				C1D270BA1BEC8CFB00BF13D2 /* SBJSON.h */,
+				C1D270BB1BEC8CFB00BF13D2 /* SBJSON.m */,
+				C1D270BC1BEC8CFB00BF13D2 /* SBJsonBase.h */,
+				C1D270BD1BEC8CFB00BF13D2 /* SBJsonBase.m */,
+				C1D270BE1BEC8CFB00BF13D2 /* SBJsonParser.h */,
+				C1D270BF1BEC8CFB00BF13D2 /* SBJsonParser.m */,
+				C1D270C01BEC8CFB00BF13D2 /* SBJsonWriter.h */,
+				C1D270C11BEC8CFB00BF13D2 /* SBJsonWriter.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		C1D270C21BEC8CFB00BF13D2 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270C31BEC8CFB00BF13D2 /* DataSigner.h */,
+				C1D270C41BEC8CFB00BF13D2 /* DataVerifier.h */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		C1D270C81BEC8CFB00BF13D2 /* extralibs */ = {
+			isa = PBXGroup;
+			children = (
+				C1D270C91BEC8CFB00BF13D2 /* libcrypto.a */,
+				C1D270CA1BEC8CFB00BF13D2 /* libssl.a */,
+			);
+			path = extralibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1091D1A1BE1F7360086228E /* EgameFeeSdkDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091D481BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMO" */;
+			buildPhases = (
+				C1091D171BE1F7360086228E /* Sources */,
+				C1091D181BE1F7360086228E /* Frameworks */,
+				C1091D191BE1F7360086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EgameFeeSdkDEMO;
+			productName = EgameFeeSdkDEMO;
+			productReference = C1091D1B1BE1F7360086228E /* EgameFeeSdkDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1091D331BE1F7360086228E /* EgameFeeSdkDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091D4B1BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMOTests" */;
+			buildPhases = (
+				C1091D301BE1F7360086228E /* Sources */,
+				C1091D311BE1F7360086228E /* Frameworks */,
+				C1091D321BE1F7360086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1091D361BE1F7360086228E /* PBXTargetDependency */,
+			);
+			name = EgameFeeSdkDEMOTests;
+			productName = EgameFeeSdkDEMOTests;
+			productReference = C1091D341BE1F7360086228E /* EgameFeeSdkDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1091D3E1BE1F7360086228E /* EgameFeeSdkDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091D4E1BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMOUITests" */;
+			buildPhases = (
+				C1091D3B1BE1F7360086228E /* Sources */,
+				C1091D3C1BE1F7360086228E /* Frameworks */,
+				C1091D3D1BE1F7360086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1091D411BE1F7360086228E /* PBXTargetDependency */,
+			);
+			name = EgameFeeSdkDEMOUITests;
+			productName = EgameFeeSdkDEMOUITests;
+			productReference = C1091D3F1BE1F7360086228E /* EgameFeeSdkDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1091D131BE1F7360086228E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = egame;
+				TargetAttributes = {
+					C1091D1A1BE1F7360086228E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C1091D331BE1F7360086228E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C1091D1A1BE1F7360086228E;
+					};
+					C1091D3E1BE1F7360086228E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C1091D1A1BE1F7360086228E;
+					};
+				};
+			};
+			buildConfigurationList = C1091D161BE1F7360086228E /* Build configuration list for PBXProject "EgameFeeSdkDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1091D121BE1F7360086228E;
+			productRefGroup = C1091D1C1BE1F7360086228E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1091D1A1BE1F7360086228E /* EgameFeeSdkDEMO */,
+				C1091D331BE1F7360086228E /* EgameFeeSdkDEMOTests */,
+				C1091D3E1BE1F7360086228E /* EgameFeeSdkDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1091D191BE1F7360086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D270D71BEC8CFB00BF13D2 /* EgameBundle.bundle in Resources */,
+				C1091D2E1BE1F7360086228E /* LaunchScreen.storyboard in Resources */,
+				C1091D2B1BE1F7360086228E /* Assets.xcassets in Resources */,
+				C1D270CD1BEC8CFB00BF13D2 /* Alixpay.bundle in Resources */,
+				C1091D291BE1F7360086228E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D321BE1F7360086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D3D1BE1F7360086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1091D171BE1F7360086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091D261BE1F7360086228E /* ViewController.m in Sources */,
+				C1D270CF1BEC8CFB00BF13D2 /* AlixPayOrder.m in Sources */,
+				C1D270D61BEC8CFB00BF13D2 /* SBJsonWriter.m in Sources */,
+				C1D270D31BEC8CFB00BF13D2 /* SBJSON.m in Sources */,
+				C1D270D51BEC8CFB00BF13D2 /* SBJsonParser.m in Sources */,
+				C1091D231BE1F7360086228E /* AppDelegate.m in Sources */,
+				C1091D201BE1F7360086228E /* main.m in Sources */,
+				C1D270D11BEC8CFB00BF13D2 /* NSObject+SBJSON.m in Sources */,
+				C1D270D21BEC8CFB00BF13D2 /* NSString+SBJSON.m in Sources */,
+				C1D270D41BEC8CFB00BF13D2 /* SBJsonBase.m in Sources */,
+				C1D270D01BEC8CFB00BF13D2 /* AlixPayResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D301BE1F7360086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091D391BE1F7360086228E /* EgameFeeSdkDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091D3B1BE1F7360086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091D441BE1F7360086228E /* EgameFeeSdkDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1091D361BE1F7360086228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1091D1A1BE1F7360086228E /* EgameFeeSdkDEMO */;
+			targetProxy = C1091D351BE1F7360086228E /* PBXContainerItemProxy */;
+		};
+		C1091D411BE1F7360086228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1091D1A1BE1F7360086228E /* EgameFeeSdkDEMO */;
+			targetProxy = C1091D401BE1F7360086228E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1091D271BE1F7360086228E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1091D281BE1F7360086228E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1091D2C1BE1F7360086228E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1091D2D1BE1F7360086228E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1091D461BE1F7360086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1091D471BE1F7360086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1091D491BE1F7360086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EgameFeeSdkDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk/alipay",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk/extralibs",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1091D4A1BE1F7360086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EgameFeeSdkDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk/alipay",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk/extralibs",
+					"$(PROJECT_DIR)/EgameFeeSdkDEMO/EgameFeeSdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1091D4C1BE1F7360086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EgameFeeSdkDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameFeeSdkDEMO.app/EgameFeeSdkDEMO";
+			};
+			name = Debug;
+		};
+		C1091D4D1BE1F7360086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EgameFeeSdkDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameFeeSdkDEMO.app/EgameFeeSdkDEMO";
+			};
+			name = Release;
+		};
+		C1091D4F1BE1F7360086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EgameFeeSdkDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EgameFeeSdkDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1091D501BE1F7360086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EgameFeeSdkDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameFeeSdkDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EgameFeeSdkDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1091D161BE1F7360086228E /* Build configuration list for PBXProject "EgameFeeSdkDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091D461BE1F7360086228E /* Debug */,
+				C1091D471BE1F7360086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1091D481BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091D491BE1F7360086228E /* Debug */,
+				C1091D4A1BE1F7360086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1091D4B1BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091D4C1BE1F7360086228E /* Debug */,
+				C1091D4D1BE1F7360086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1091D4E1BE1F7360086228E /* Build configuration list for PBXNativeTarget "EgameFeeSdkDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091D4F1BE1F7360086228E /* Debug */,
+				C1091D501BE1F7360086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1091D131BE1F7360086228E /* Project object */;
+}
